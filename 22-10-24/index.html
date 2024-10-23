@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INLINE AND BLOCK OF ELEMENT</title>
+    <style>
+        .first {
+            border-width: 4px;
+            border-color: rgb(197, 27, 27);
+            border-style: solid;
+            color: blue;
+        }
+        #second{
+            border-width: 4px;
+            border-color: rgb(27, 87, 197);
+            text-align: center;
+            border-style: solid;
+            color: rgb(51, 153, 31);
+            font-size: xx-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        /* span{
+            border-width: 4px;
+            border-color: rgb(197, 27, 27);
+            border-style: solid;
+            color: blu   #second{
+            border-width: 4px;
+            border-color: rgb(27, 87, 197);
+            text-align: center;
+            border-style: solid;
+            color: rgb(51, 153, 31);
+            font-size: xx-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        
+
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- inline css -->
+    <span style="border: 2px solid red;"><sub>INLINE ELEMENT1</sub><sup>INLINE ELEMENT1</sup></span>
+    <div style="border: 2px solid blue; background-color: blanchedalmond; color:brown; font-size:40px;"><b>Block of element 1</b></div>
+    <br><br>
+    <DIV style="border-width: 4px;border-color:black;text-align: center; border-style:solid;"><strong>BLOCK OF ELMENT 2</strong></DIV>
+    <SPAN style="border: 2px solid blue; background-color: blanchedalmond; color:brown; font-size:40px;"><i>INLINE BLOCK OF ELEMENTS 2</i></SPAN>
+
+    <br><br>
+    <SPAN class="first"><em>INLINE ELEMENT3</em></SPAN>
+    <SPAN><mark> INLINE ELEMENT 3</mark></SPAN>
+    <br><br>
+    <DIV id="second"><small>BLOCK OF ELEMENT3</small></DIV>
+    <br>
+    <DIV class="third">BLOCK <del>OF </del><ins>ELEMENT3</ins></DIV>
+</body>
+
+</html>
