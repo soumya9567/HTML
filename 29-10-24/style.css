@@ -1,0 +1,38 @@
+.container{
+    border: 2px solid black;
+    height: 40vh;
+    width: 40vw;
+    background-image: url(./images/futuristic-space-rocket-with-fantasy-design.jpg);
+    background-size: cover;
+    position: fixed;
+    left: 1200px;
+    z-index: 1;
+}
+.container1{
+    border: 2px solid black;
+    height: 60vh;
+    width: 60vw;
+    background-color: pink;
+    /* background-size: cover; */
+    position: fixed;
+    left: 1000px;
+    z-index: 1;
+   
+}
+.box
+{
+    border: 2px solid black;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    top: 0px;
+}
+#box1{
+    background-color: green;
+}
+#box2{
+    background-color: rgb(59, 100, 187);
+}
+#box3{
+    background-color: rgb(233, 119, 54);
+}
