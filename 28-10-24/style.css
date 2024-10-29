@@ -1,0 +1,39 @@
+.header{
+    background-color: black;
+    height: 35px;
+}
+div{
+    border: 1px solid black;
+    height: 100px;
+  
+}
+.text{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding-left: 450px;
+}
+.main
+{
+    height: 300px;
+    border: none;
+}
+.first{
+    background-color:rgba(135, 214, 135,0.5);
+}
+.second{
+    background-color:rgba(58, 85, 206, 0.5);
+}
+.third{
+    background-color:rgba(233, 88, 44, 0.5);
+}
+.footer{
+    background-color: orange;
+    color: white;
+    display: block;
+    text-align: center;
+    height: 35px;
+}
+h2{
+    text-align: center;
+}
